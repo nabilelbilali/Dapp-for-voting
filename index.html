@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title '>voting DApp</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body style='background-color:#DFCFBE' class="container">
+  <h1 style='margin-left:350px'>The usa Voting Application</h1>
+  <img style='margin-left:100px;width:100px;height:100px' src="C:Users/hp/Desktop/Trump.jpg">
+   <img style='margin-left:250px' src="https://media3.giphy.com/media/xULW8gAknl9aHIyEgM/200.webp?cid=ecf05e47388b92fef7ff83f4f70e9b86a14877ffed275046&rid=200.webp" alt="Loading" title="Loading" />
+  <img style='margin-left:230px;width:100px;height:100px' src="C:Users/hp/Desktop/Biden.jpg">
+  <div style='margin-top:50px'class="table-responsive">
+    <table class="table ">
+      <thead>
+        <tr>
+          <th>Candidate</th>
+          <th>Votes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Donald Trump</td>
+          <td id="candidate-1"></td>
+        </tr>
+        <tr>
+          <td>Joe Biden</td>
+          <td id="candidate-2"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="text" id="candidate" />
+  <a href="#" onclick="voteForCandidate()" class="btn btn-info">Vote</a>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="C:\Users\hp\Desktop\votingApp\index.js"></script>
+</html>
